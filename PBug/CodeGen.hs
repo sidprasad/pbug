@@ -132,7 +132,6 @@ genP s =
     (firstfirst2, err4) = Semant.checkFirstFirst' g
     eofs = ("$"++eofs)
 
-    -- Also need to write first-first
     in
         \s -> PP.parse ( 
                          if unrec then (error err0) else

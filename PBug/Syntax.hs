@@ -26,12 +26,10 @@ type Rulename = String  -- BNF rule names
 
 type HaskellCode = String
 
--- This is for eventual result
--- Need to work on this
+
 data AST = NT String [AST]
         | T [AST]
         |  S String
         | EndOfFile
   deriving (Eq, Show)
-
 

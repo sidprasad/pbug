@@ -12,7 +12,11 @@ import PBug.Syntax
 
 
 
-[pbug| E=>"a" E< > E=>"b"< > |]
+[pbug|
+ E=>"a" E< >
+ E=>"b"< > 
+
+|]
 
 works = parseE "aaaab"
 err = parseE "aa"

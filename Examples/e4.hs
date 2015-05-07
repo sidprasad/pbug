@@ -7,8 +7,8 @@ import PBug.CodeGen
 -- First Follow Conflict
 
 [pbug|
-    S=>A "a" "b" < >
-    A=> "a" < >
+    S=>A "a" "b"< >
+    A=> "a"< >
  
 |]
 
